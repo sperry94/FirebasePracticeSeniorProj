@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <button id="firebaseButton">Click to add</button>
+        <button id="firebaseClearButton">Click to clear</button>
+        <div id="scaffold"></div>
+
+        <!--from firebase website-->
+        <script src="https://www.gstatic.com/firebasejs/3.4.1/firebase.js"></script>
+        <script>
+          // Initialize Firebase
+          var config = {
+            apiKey: "AIzaSyD_UGV_IGHZs5DoY6kHkj_lZJfaKO8-sfU",
+            authDomain: "fir-test-7602e.firebaseapp.com",
+            databaseURL: "https://fir-test-7602e.firebaseio.com",
+            storageBucket: "fir-test-7602e.appspot.com",
+            messagingSenderId: "1000306408923"
+          };
+          firebase.initializeApp(config);
+        </script>
+        <!--end code from firebase website-->
+
+        <script src="./firebaseScript.js"></script>
+    </body>
+</html>
